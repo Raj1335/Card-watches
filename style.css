@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: darkgray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    height: 40vh;
+    width: 15vw;
+    padding: 1rem;
+    background-color: rgb(147, 178, 180);
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: all 0.1s ease-in;
+
+
+    img{
+        width: 15vw;
+        border-radius: 5px;
+    }
+
+    h1{
+        
+        white-space: wrap;
+    }
+
+    p{
+font-weight: 700;
+    }
+
+    button{
+width: 80%;
+height: 1.5rem;
+border-radius: 5px;
+border: none;
+background-color: dodgerblue;
+color: white;
+    }
+}
+
+.card:hover{
+    
+        transform: scale(1.1);
+        border: 1px solid black;
+        background-color: burlywood;
+
+        h1,p{
+            color: white;
+        }
+
+    
+}
+
+button:hover{
+    background-color: coral;
+    font-weight: 900;
+}
